@@ -1,0 +1,30 @@
+/* styles.css */
+.drawer {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1;
+}
+
+.drawer.open {
+    width: 250px; /* Adjust the width as needed */
+}
+
+button#openDrawerButton {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+button#closeDrawerButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
